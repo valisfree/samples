@@ -5,7 +5,7 @@ import socket
 
 sock = socket.socket()
 
-sock.connect(('http://duvale.pythonanywhere.com/server.py', 80))
+sock.connect(('duvale.pythonanywhere.com/server.py', 9090))
 mess = "hello world!"
 sock.send(mess.encode("utf-8"))
 
